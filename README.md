@@ -9,4 +9,6 @@
 
 `Download: https://file.io/s7tJn8`
 
+Usage example:
+
 `python3 dirsearch.py -u https://example.com -e "php" -w ../Content-Bruteforcing-Wordlist/dirsearch-wordlist.txt`
