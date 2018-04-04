@@ -4,10 +4,10 @@
 
 - burp-wordlist.txt - size: 40M 
 
-`wget https://file.io/RUDhAN`
+`wget https://localdomain.pw/Content-Bruteforcing-Wordlist/burp-wordlist.txt`
 - dirsearch-wordlist.txt - size: 102M
 
-`wget https://file.io/4wEenR`
+`wget https://localdomain.pw/Content-Bruteforcing-Wordlist/dirsearch-wordlist.txt`
 
 Usage example:
 
