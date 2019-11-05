@@ -1,14 +1,11 @@
 # Content Bruteforcing Wordlist
-  
+
 #### Wordlist for content(directory) bruteforce discovering with Burp or dirsearch
 
-- burp-wordlist.txt - size: 51868500 - sha256sum: e22db98135b9165cf5c7b8325bb57dd1f042603fc70508a81cd947299d182b4d
+- burp-wordlist.txt - size: 51875098 - sha256sum: 3edd0e0d97330dcacfd138e123d4f3885d284e4694509b802c995d24e51711a6
 
-`wget https://localdomain.pw/Content-Bruteforcing-Wordlist/burp-wordlist.txt`
-- dirsearch-wordlist.txt - size: 128932911 - sha256sum: bd4004a295b8bb3fa3aed8fec5c197321a571e55ea0333513ffe4635e4143ade
+###### Usage:
 
-`wget https://localdomain.pw/Content-Bruteforcing-Wordlist/dirsearch-wordlist.txt`
+Use Burp Suite extension Turbo Intruder for scanning with pipeline=True
 
-Usage example:
-
-`python3 dirsearch.py -u https://example.com -e "php" -w ../Content-Bruteforcing-Wordlist/dirsearch-wordlist.txt`
+https://github.com/PortSwigger/turbo-intruder/blob/master/resources/examples/basic.py
