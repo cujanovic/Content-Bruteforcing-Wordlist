@@ -2,9 +2,9 @@
 
 #### Wordlist for content(directory) bruteforce discovering with Burp Suite extension Turbo Intruder
 
-- burp-wordlist.txt - size: 51875098 - sha256sum: 3edd0e0d97330dcacfd138e123d4f3885d284e4694509b802c995d24e51711a6
+- burp-wordlist.txt - size: 204493887 - sha256sum: e559b243c3ca8028e2cc8346fca6ac0a06c0831e4e6eba76ee846351e9d881dc
 
-`wget https://localdomain.pw/Content-Bruteforcing-Wordlist/burp-wordlist.txt`
+`wget https://localdomain.pw/Content-Bruteforcing-Wordlist/burp-wordlist.txt?ver=204493887`
 
 #### Usage:
 
