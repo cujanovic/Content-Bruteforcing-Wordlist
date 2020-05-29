@@ -8,6 +8,8 @@
 
 #### Usage:
 
+See the example: `turbo-intruder-example.py`
+
 Use Burp Suite extension Turbo Intruder for scanning with `pipeline=True`
 
 https://github.com/PortSwigger/turbo-intruder/blob/master/resources/examples/basic.py
