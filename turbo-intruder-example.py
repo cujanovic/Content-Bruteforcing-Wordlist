@@ -7,14 +7,11 @@ def queueRequests(target, wordlists):
                            pipeline=True
                            )
 
-    for i in range(3, 8):
-        engine.queue(target.req, randstr(i), learn=1)
-        engine.queue(target.req, target.baseInput, learn=2)
-
     for word in open('Content-Bruteforcing-Wordlist/burp-wordlist.txt'):
         engine.queue(target.req, urllib.quote(word.rstrip()))
 
 
 def handleResponse(req, interesting):
-    if interesting:
+    # currently available attributes are req.status, req.wordcount, req.length and req.response
+    if req.status != 404:
         table.add(req)
