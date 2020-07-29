@@ -13,5 +13,5 @@ def queueRequests(target, wordlists):
 
 def handleResponse(req, interesting):
     # currently available attributes are req.status, req.wordcount, req.length and req.response
-    if req.status != 404:
+    if req.status != 400 and req.status != 404:
         table.add(req)
